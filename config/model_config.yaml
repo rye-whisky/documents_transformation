@@ -1,0 +1,15 @@
+# 模型配置文件
+models:
+  glm-4.5-air:
+    provider: zhipu
+    model_name: glm-4.5-air
+    api_key: "your_zhipu_api_key_here"
+    temperature: 0.3
+    api_base: https://open.bigmodel.cn/api/paas/v4
+  
+  glm-4.5v:
+    provider: zhipu
+    model_name: glm-4.5v
+    api_key: "your_zhipu_api_key_here"
+    temperature: 0.3
+    api_base: https://open.bigmodel.cn/api/paas/v4
